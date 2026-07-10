@@ -1,0 +1,298 @@
+/* ==========================
+   GOOGLE FONT & RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+
+    color:#fff;
+    padding:20px;
+}
+
+/* ==========================
+   CALCULATOR CONTAINER
+========================== */
+
+.calculator-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ==========================
+   CALCULATOR CARD
+========================== */
+
+.calculator{
+
+    width:100%;
+    max-width:380px;
+
+    background:rgba(255,255,255,0.10);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,0.20);
+
+    border-radius:25px;
+
+    padding:25px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.35);
+
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.calculator-header{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.calculator-header h1{
+
+    font-size:2rem;
+    font-weight:700;
+
+}
+
+.calculator-header p{
+
+    margin-top:8px;
+
+    color:#d1d5db;
+
+    font-size:.9rem;
+
+}
+
+/* ==========================
+   DISPLAY
+========================== */
+
+.display{
+
+    margin-bottom:25px;
+
+}
+
+.history{
+
+    text-align:right;
+
+    color:#cbd5e1;
+
+    min-height:22px;
+
+    margin-bottom:8px;
+
+    font-size:.9rem;
+
+}
+
+.display-screen{
+
+    width:100%;
+
+    height:70px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    font-size:2rem;
+
+    text-align:right;
+
+    background:#f8fafc;
+
+    color:#111827;
+
+    font-weight:600;
+
+}
+
+/* ==========================
+   BUTTON GRID
+========================== */
+
+.buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:15px;
+
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.btn{
+
+    height:65px;
+
+    border:none;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+    font-size:1.2rem;
+
+    font-weight:600;
+
+    transition:.25s;
+
+    color:white;
+
+    background:#334155;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+}
+
+.btn:active{
+
+    transform:scale(.95);
+
+}
+
+/* ==========================
+   COLORS
+========================== */
+
+.number{
+
+    background:#475569;
+
+}
+
+.operator{
+
+    background:#f59e0b;
+
+}
+
+.operator:hover{
+
+    background:#fbbf24;
+
+}
+
+.equal{
+
+    background:#2563eb;
+
+}
+
+.equal:hover{
+
+    background:#3b82f6;
+
+}
+
+.danger{
+
+    background:#dc2626;
+
+}
+
+.danger:hover{
+
+    background:#ef4444;
+
+}
+
+/* ==========================
+   ZERO BUTTON
+========================== */
+
+.zero{
+
+    grid-column:span 2;
+
+    background:#475569;
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:#d1d5db;
+
+    font-size:.9rem;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:480px){
+
+    .calculator{
+
+        padding:20px;
+
+    }
+
+    .btn{
+
+        height:58px;
+
+        font-size:1rem;
+
+    }
+
+    .display-screen{
+
+        font-size:1.7rem;
+
+    }
+
+    .calculator-header h1{
+
+        font-size:1.7rem;
+
+    }
+
+}
