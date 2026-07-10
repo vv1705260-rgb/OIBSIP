@@ -1,5 +1,5 @@
 ## OIBSIP
-######Oasis Infobyte Internship Projects - Web Development &amp; Designing
+Oasis Infobyte Internship Projects - Web Development &amp; Designing
 
 # 🧮 Premium Scientific Calculator
 
