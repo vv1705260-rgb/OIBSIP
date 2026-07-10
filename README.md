@@ -209,7 +209,9 @@ Thanks to **Oasis Infobyte** for providing this internship opportunity and helpi
 
 **Vaishali B**
 
-BCA Student | Frontend Web Developer
+BCA Student | Full stack Web Developer
+linkdin - https://www.linkedin.com/in/vaishali-357946292006deimos
+https://www.linkedin.com/in/vaishali-357946292006deimos?trk=contact-info
 
 ### Skills
 
