@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Modern Calculator built using HTML, CSS and JavaScript for the Oasis Infobyte Web Development Internship.">
+    <meta name="keywords" content="Calculator, HTML, CSS, JavaScript, OIBSIP">
+    <meta name="author" content="Vaishali B">
+
+    <title>Modern Calculator | OIBSIP</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="calculator-container">
+
+        <!-- Calculator Card -->
+        <section class="calculator">
+
+            <!-- Heading -->
+            <header class="calculator-header">
+                <h1>Calculator</h1>
+                <p>Oasis Infobyte Internship Project</p>
+            </header>
+
+            <!-- Display -->
+            <section class="display">
+
+                <div id="history" class="history">
+                    &nbsp;
+                </div>
+
+                <input
+                    type="text"
+                    id="display"
+                    class="display-screen"
+                    placeholder="0"
+                    readonly
+                    aria-label="Calculator Display">
+
+            </section>
+
+            <!-- Buttons -->
+            <section class="buttons">
+
+                <!-- Row 1 -->
+                <button class="btn danger" data-value="C">C</button>
+                <button class="btn danger" data-value="backspace">⌫</button>
+                <button class="btn operator" data-value="%">%</button>
+                <button class="btn operator" data-value="/">÷</button>
+
+                <!-- Row 2 -->
+                <button class="btn number" data-value="7">7</button>
+                <button class="btn number" data-value="8">8</button>
+                <button class="btn number" data-value="9">9</button>
+                <button class="btn operator" data-value="*">×</button>
+
+                <!-- Row 3 -->
+                <button class="btn number" data-value="4">4</button>
+                <button class="btn number" data-value="5">5</button>
+                <button class="btn number" data-value="6">6</button>
+                <button class="btn operator" data-value="-">−</button>
+
+                <!-- Row 4 -->
+                <button class="btn number" data-value="1">1</button>
+                <button class="btn number" data-value="2">2</button>
+                <button class="btn number" data-value="3">3</button>
+                <button class="btn operator" data-value="+">+</button>
+
+                <!-- Row 5 -->
+                <button class="btn zero" data-value="0">0</button>
+                <button class="btn number" data-value=".">.</button>
+                <button class="btn equal" data-value="=">=</button>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Developed by <strong>Vaishali B</strong> |
+            Oasis Infobyte Web Development Internship
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+  </html>
